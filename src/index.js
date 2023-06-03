@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from "react-router-dom"
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Hind+Siliguri:wght@300&family=PT+Sans&display=swap" rel="stylesheet"></link>;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

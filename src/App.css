@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 } */
+
+
+/* root variables  */
+:root {
+  --header-text: 'Hind Siliguri';
+  --primary-color: #65B530;
+  --dark: #161616;
+}
+
+
+/* navbar custom CSS  ........... */
+
+.nav-items {
+  list-style: none;
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 700;
+  font-family: var(--header-text);
+  padding-right: 15px;
+}
+
+.nav-items:hover {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  padding: 3px 10px !important;
+}
+
+.nav-items-icons {
+  padding: 10px 7px;
+  color: var(--primary-color);
+  margin-right: 2px;
+  border-radius: 100%;
+  background-color: #f5f5f5 !important;
+}
+
+.custom-icon-nav {
+  color: var(--primary-color);
+}
+
+.nav-items-icons:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.nav-items-icons:hover>.custom-icon-nav {
+  color: #fff;
+}
