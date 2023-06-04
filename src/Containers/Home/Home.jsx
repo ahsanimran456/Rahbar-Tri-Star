@@ -1,11 +1,15 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
-import Slider from '../../Components/Slider/Slider'
+import SliderNav from '../../Components/Slider/Slider'
+import Simplecards from '../../Components/SimpleCards/Simplecards'
+import AboutUs from '../Aboutus/Aboutus'
 export default function Home() {
   return (
     <>
-    <Header/>
-    <Slider/>
+      <Header />
+      <SliderNav />
+      <Simplecards />
+      <AboutUs />
     </>
   )
 }
